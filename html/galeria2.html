@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css" type="text/css">
+     <link rel="stylesheet" href="../css/galeria2.css">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div id="banner">
+
+        </div>
+        <div id="navbar">
+            <div id="menu2">
+                <ul>
+                    <li><a href="../index.html"><b>Home</b></a></li>    
+                  <li><a href="galeria1.html"><b>Galeria 1</b></a></li>
+                  <li><a href="galeria2.html"><b>Galeria 2</b></a></li>
+                  <li><a href="galeria3.html"><b>Galeria 3</b></a></li>
+                  <li><a href="galeria4.html"><b>Galeria 4</b></a></li>
+                  <li><a href="galeria5.html"><b>Galeria 5</b></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <nav class="gallery">
+                <div class="gallery-row">
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                </div>
+                <div class="gallery-row">
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                  <a href="40_1200.jpg" class="gallery-thumbnail gallery-item"><img src="40_1200.jpg" alt="Miniatura zdjęcia"></a>
+                </div>
+              </nav>
+        </div>
+        <div id="stopka">
+    
+        </div>
+    </div>
+
+    <script src="../js/compsoul/compsoul.js"></script>
+    <script src="../js/compsoul/gallery.js"></script>
+    <script>
+
+      new Gallery(".gallery-item").options({
+        close: false,
+        closeDelay: 200,
+        next: true,
+        prev: true,
+        album: false,
+        albumStart: 0,
+        preload: true,
+        counter: true,
+        loop: true,
+        zoom: true,
+        zoomDelay: 400,
+        overflow: true,
+        hash: true,
+        thumbnails: true,
+        responsive: {
+          400: {
+            loop: false
+          },
+          800: {
+            loop: true
+          },
+          1300: {
+            loop: false
+          }
+        }
+      }).init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+#container
+{
+    width: 1080px;
+    height: 100vh;
+    border-style: solid;
+    border-color: #50808E;
+    border-radius: 10px;
+    background-color: #84B59F;
+    box-sizing: border-box;
+    
+}
+
+#banner
+{
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+}
+
+#navbar
+{
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    background-color: #69A297;
+}
+
+#content
+{
+    width: 100%;
+    height: 65%;
+    box-sizing: border-box;
+    background-color: #A3C9A8;
+}
+
+#stopka
+{
+    width: 100%;
+    height: 5%;
+    box-sizing: border-box;
+    background-color: #69A297;
+}
+
+
+/*menu*/
+#menu2
+{
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+#menu2 ul
+{
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#menu2 li
+{
+    display: inline;
+}
+
+#menu2 li a {
+    display: block;
+    margin-top: 6px;
+    height: 30px;
+    float: left;
+    color: #000;
+    text-decoration: none;
+    font: normal 14px/22px 'latomedium', arial,sans-serif;
+    padding: 0 0 0 12px;
+
+    background: #50808E;
+}
+
+#menu2 li a b {
+    height: 100%;
+    float: left;
+    display: block;
+    background: #50808E;
+    padding: 0 12px 0 0;
+}
+
+#menu2 li a:hover{
+    background: #DDD8C4;
+}
+
+#menu2 li a:hover b{
+    background: #DDD8C4;
+}
